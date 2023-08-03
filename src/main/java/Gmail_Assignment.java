@@ -37,5 +37,6 @@ public class Gmail_Assignment extends BaseClass {
         //Comparing the Subject and Body of the Received Email
         verifyAssert(GmailPage.subjectOfTheMail,subject);
         verifyAssert(GmailPage.bodyOfTheMail,body);
+        driver.close();
     }
 }
